@@ -1,8 +1,6 @@
 <?php
-    $myarray = Array(
-		[0] => 500
-		[1] => hello world
-	);
+    $myarray[] = 500;
+    $myarray[] = "hello world";
     $myjson = json_encode($myarray);
 ?>
 <form name="input" action="post.php">
