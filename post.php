@@ -6,6 +6,6 @@
     print_r($posted_data); */
     $data = json_decode($_REQUEST['json'], true);
 
-    echo $data[0]; // Should output 500
-    echo $data[1]; // Should output hello world	
+    print_r $data[0]; // Should output 500
+    print_r $data[1]; // Should output hello world	
 ?>
