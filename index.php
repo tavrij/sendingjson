@@ -1,7 +1,7 @@
 <?php
 
 $data = '    { "user" : [   
-                 { "firstName" : "Vignesh",  
+                 { "firstName" : "Amir",  
                    "lastName"  : "Prajapati",
                    "age"       : 23,
                    "email"     : ["vignesh@gmail.com","vignesh@yahoo.com"],
